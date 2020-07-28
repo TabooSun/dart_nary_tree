@@ -1,14 +1,14 @@
 # Check out https://docs.codemagic.io/yaml/yaml/ for more information
 
 workflows:
-    flutter-package:
-        name: Flutter or Dart Package
-        environment:
-            flutter: stable
-        triggering:
-            events:
-                - tag
-        scripts:
-            - flutter packages pub get
-            - flutter test
-            - pub publish
+  flutter-package:
+    name: Flutter or Dart Package
+    environment:
+      flutter: stable
+    triggering:
+      events:
+        - tag
+    scripts:
+      - flutter packages pub get
+      - flutter test
+      - pub publish
