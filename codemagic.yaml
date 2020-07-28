@@ -8,3 +8,4 @@ workflows:
         scripts:
             - flutter packages pub get
             - flutter test
+            - pub publish

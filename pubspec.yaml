@@ -1,8 +1,7 @@
 name: nary_tree
 description: Simple N-ary Tree
 version: 0.0.1
-author: Mok Kah Wai
-homepage:
+repository: https://github.com/TabooSun/dart_nary_tree
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
