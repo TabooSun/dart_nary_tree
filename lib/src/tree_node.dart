@@ -1,6 +1,6 @@
 class TreeNode<T> {
-  final T item;
-  final TreeNode<T> parent;
+  final T? item;
+  final TreeNode<T>? parent;
   final List<TreeNode<T>> children = [];
 
   TreeNode({
