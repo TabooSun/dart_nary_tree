@@ -6,8 +6,8 @@ class Human {
   final int age;
 
   Human({
-    this.name,
-    this.age,
+    required this.name,
+    required this.age,
   });
 }
 
